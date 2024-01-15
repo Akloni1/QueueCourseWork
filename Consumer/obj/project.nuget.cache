@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8WT/aHTobT5wob7kpnGJaZ0QELZamS0XadZZYnNoryVNmZHM8ep3CRoB/8HqPkPgh6A/oV05s4DuTkBf2gUszQ==",
+  "dgSpecHash": "giNTyQeFeRUqLUdGCXPREmLCk0nEffF1EwUU3x2xtj+lTRNxEMKx60BXQgHc/mLFWfkisLunHcj8FIOoIqrp/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Михаил\\Desktop\\QueueCourseWork\\Consumer\\Consumer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Михаил\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\Михаил\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",

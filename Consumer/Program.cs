@@ -1,4 +1,5 @@
 using Consumer.Interfaces;
+using Consumer.Kafka;
 using Consumer.RabbitMQ;
 using Consumer.Services.RabbitMQ;
 
@@ -18,6 +19,7 @@ namespace Consumer
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IBankAccountService, BankAccountService>();
             builder.Services.AddHostedService<RabbitMqListener>();
+            builder.Services.AddHostedService<KafkaListener>();
 
             var app = builder.Build();
 

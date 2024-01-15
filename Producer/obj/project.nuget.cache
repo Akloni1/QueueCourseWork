@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2A61gF/JqJS1umITmNfkuM8UBbUewcfRbyyPZsupHT7O4XkxGKSZylxSA4R9fJ+CKDTRDBOFBMWHrsgtZ/WoEA==",
+  "dgSpecHash": "YBThI3UO3NxkNgLrh+NVsIpHBPvyQO2d0iigXhdO3nsudg68C01i7ryjrWZYF/geNq1wuvwVRzkuTbgZsKndmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Михаил\\Desktop\\QueueCourseWork\\Producer\\Producer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Михаил\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\Михаил\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",

@@ -17,7 +17,7 @@ namespace Producer.Controllers.RabbitMQ
             _messagePublisher = messagePublisher;
         }
 
-        [HttpPost]
+        [HttpPost("api/RabbitMQ")]
         public  IActionResult CreateOrder(Order order)
         {
             _order.Add(order);
