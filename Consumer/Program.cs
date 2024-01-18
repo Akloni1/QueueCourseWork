@@ -2,6 +2,7 @@ using Consumer.Interfaces;
 using Consumer.Kafka;
 using Consumer.RabbitMQ;
 using Consumer.Services.RabbitMQ;
+using Prometheus;
 
 namespace Consumer
 {
@@ -33,7 +34,7 @@ namespace Consumer
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseMetricServer();
 
             app.MapControllers();
 

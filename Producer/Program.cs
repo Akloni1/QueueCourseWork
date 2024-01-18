@@ -1,5 +1,6 @@
 using Producer.RabbitMQ;
 using Producer.RabbitMQ.Interfaces;
+using Prometheus;
 
 namespace Producer
 {
@@ -29,7 +30,7 @@ namespace Producer
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseMetricServer();
 
             app.MapControllers();
 
